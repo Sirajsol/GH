@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+background-color: whitesmoke;
+}
+.whole{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -20px;
+    left: -2px;
+}
+.whole img{
+    width: 100%;
+}
+@media screen and (max-width:600px) {
+    .whole{
+       
+        position: absolute;
+        top: 1px;
+        left: 1px;
+    }
+}

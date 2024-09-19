@@ -1,0 +1,59 @@
+.whole_money_Cont{
+    display:  flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+.whole_money_Cont .mmg{
+    display: flex;
+    width: 35%;
+}
+.whole_money_Cont .mmg img{
+    width: 60%;
+    margin-right: 20px;
+}
+.whole_money_Cont .money_txt{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.whole_money_Cont .money_txt .title{
+
+    font-family: Poppins;
+font-size: 48px;
+font-weight: 300;
+line-height: 82px;
+text-align: left;
+
+}
+.whole_money_Cont .money_txt .desc{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 300;
+line-height: 36px;
+text-align: left;
+
+}
+
+@media screen and (max-width:600px) {
+
+    .whole_money_Cont{
+        display:  flex;
+        flex-direction: column;
+    align-items: center;
+    }
+    .whole_money_Cont .money_txt .title{
+
+        font-family: Poppins;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 52px;
+    text-align: left;
+    
+    }
+}

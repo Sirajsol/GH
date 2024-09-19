@@ -1,0 +1,67 @@
+.quest_cont{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+    /* border: 5px solid black; */
+}
+.quest_cont .quest_internal_cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    margin-left: 50px;
+}
+.tttl{
+    display: flex;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    text-align: left;
+    align-items: center;
+    /* border-bottom:  1px solid red; */
+    
+
+    /* border-bottom: 1px red; */
+}
+ .title{
+    
+    display: flex;
+    justify-content: center;
+    /* border-bottom: 1px red; */
+    padding-bottom: 30px;
+    font-family: Poppins;
+font-size: 38px;
+font-weight: 300;
+line-height: 72px;
+text-align: left;
+
+/* border-bottom:  1px solid red; */
+padding-bottom: 40px;
+}
+.tttl .txt{
+    display: flex;
+    width: 80%;
+}
+ .tttl .sign{
+    display: flex;
+    width: 20%;
+    cursor: pointer;
+    justify-content: flex-end;
+}
+ .shrink{
+    display: flex;
+    overflow: hidden;
+    height: 0;
+    /* width: 60%; */
+    /* margin-top: 20px; */
+    border-bottom: 1px red solid;
+}
+ .expand{
+    display: flex;
+    height: auto;
+    margin-top: 20px;
+    /* width: 60%; */
+    border-bottom: 1px red solid;
+}

@@ -1,0 +1,182 @@
+.footer_cont{
+margin-top: 50px;
+    display: flex;
+    width: 1500px;
+    /* border: 5px springgreen solid; */
+    background-color: red;
+    /* height: 80px; */
+    background-color: black;
+    flex-direction: column;
+}
+
+.footer_cont .upper_panel{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: transparent;
+}
+
+.footer_cont .upper_panel .upper_first{
+    background-color: transparent;
+    display: flex;
+    padding-bottom: 10px;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    /* margin-left: 5%; */
+}
+.footer_cont .upper_panel .upper_second{
+    display: flex;
+    padding-top: 10px;
+    /* flex: 1; */
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-evenly;
+    /* margin-left: 5%; */
+}
+
+.footer_cont .upper_panel .upper_first  .lower{
+    display: flex;
+    
+    /* flex-direction: row; */
+    width: 4%;
+    margin-right: 20px;
+    /* justify-content: center; */
+    /* border: 5px springgreen solid; */
+}
+.footer_cont .upper_panel .upper_first  .lower .item{
+    width: 30px;
+    color: whitesmoke;
+    background-color: transparent;
+    cursor: pointer;
+}
+.footer_cont .upper_panel .upper_first .lower img{
+    width: 20px;
+    cursor: pointer;
+}
+
+.footer_cont .upper_panel .upper_third{
+    padding-top: 10px;
+    display: flex;
+    /* flex: 1 1 1; */
+    flex-direction: row;
+    /* width: 90%; */
+    justify-content: space-between;
+    background-color: transparent;
+    /* margin-left: 5%; */
+}
+.footer_cont .upper_panel .upper_third .it{
+    display: flex;
+    width: 40%;
+    justify-content: flex-start;
+    color: whitesmoke;
+    background-color: transparent;
+    /* border: 1px solid rebeccapurple; */
+    cursor: pointer;
+}
+.footer_cont .upper_panel .upper_third .itt{
+    display: flex;
+    width: 60%;
+    justify-content: flex-start;
+    /* border: 1px solid rebeccapurple; */
+    padding-left: 30px;
+     color: whitesmoke;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.footer_cont .upper_panel .upper_second .item{
+    display: flex;
+    border:  5px solid bl;
+    /* width: 30%; */
+}
+
+.footer_cont .upper_panel .upper_first .item{
+background-color: transparent;
+color: white;
+cursor: pointer;
+}
+
+
+.footer_cont .lower_panel{
+    display: flex;
+    border-top: 1px solid rgb(56, 52, 52);
+}
+.footer_cont .lower_panel .lower_left{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: black;
+}
+.footer_cont .lower_panel .lower_left .title{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 55px;
+    height: 80px;
+    color: whitesmoke;
+    background-color: black;
+    position: relative;
+}
+.footer_cont .lower_panel .lower_left .line{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;
+    color: whitesmoke;
+    background-color: transparent;
+    align-items: flex-start;
+    padding-top: 20px;
+    
+}
+.footer_cont .lower_panel .lower_left .title .ll{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 35px;
+    color: whitesmoke;
+    background-color: transparent;
+    align-items: flex-start;
+    padding-top: 20px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+.footer_cont .lower_panel .lower_left .title img{
+    display: flex;
+    width: 50px;
+    align-items: center;
+    background-color: yellow;
+    position: absolute;
+    top: 30px;
+    cursor: pointer;
+}
+.footer_cont .lower_panel .lower_right{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: black;
+}
+
+@media screen and (max-width:600px) {
+    .footer_cont{
+        margin-top: 50px;
+            display: flex;
+            width: 100%;
+            /* border: 5px springgreen solid; */
+            background-color: red;
+            /* height: 80px; */
+            background-color: black;
+            flex-direction: column;
+        }
+        .footer_cont .upper_panel .upper_first .lower{
+            background-color: transparent;
+            width: 16%;
+            display: flex;
+            flex-wrap: wrap;
+            padding-bottom: 10px;
+            flex-direction: row;
+            /* width: 90%; */
+            justify-content: space-between;
+            /* margin-left: 5%; */
+        }
+}

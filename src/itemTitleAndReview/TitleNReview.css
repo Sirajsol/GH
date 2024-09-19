@@ -1,0 +1,37 @@
+
+.whole_title_and_review{
+align-items: start;
+    display: flex;
+    /* margin-top: 30px; */
+    flex-direction: column;
+    /* border: 2px solid black; */
+}
+
+.Ttl{
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+text-align: left;
+
+}
+.stars_and_text{
+    display: flex;
+    width: 100%;
+}
+
+
+.star_package{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.text_next_stars{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 300;
+line-height: 27px;
+text-align: center;
+
+}

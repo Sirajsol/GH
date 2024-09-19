@@ -1,0 +1,18 @@
+.item_info_whole{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 50%;
+}
+@media screen and (max-width:600px) {
+
+    .item_info_whole{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin-left: 70px;
+    }
+
+}
