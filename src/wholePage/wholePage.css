@@ -8,11 +8,12 @@ background-color: whitesmoke;
     display: flex;
     flex-direction: column;
     width: 100%;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    position: absolute;
+    /* position: absolute; */
     top: -20px;
     left: -2px;
+    /* position: relative; */
 }
 .whole img{
     width: 100%;

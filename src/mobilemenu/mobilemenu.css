@@ -1,0 +1,104 @@
+
+.whole_mobile_menu{
+    display: none;
+    align-items: end;
+    width: fit-content;
+    width: 70%;
+    background-color: transparent;
+    justify-content: flex-end;
+    align-items: flex-start;
+   position: absolute;
+   /* height: 300px; */
+   height: 400px;
+   z-index: 10;
+   /* margin: 0; */
+   right: -40px;
+}
+.whole_mobile_menu .mobile_menu_container{
+ display: none;
+ position: absolute;
+ right: 0;
+ top: 0;
+ width: 100%;
+
+ border: 2px black solid;
+ justify-content: flex-start;
+
+}
+.whole_mobile_menu .mobile_menu_icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 5px;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border: 2px blue solid;
+    background-color: gray;
+    justify-content: space-evenly;
+    filter: drop-shadow(0 5px 10px blue);
+    cursor: pointer;
+    z-index: 1;
+}
+
+.whole_mobile_menu .mobile_menu_icon .line{
+    display: flex;
+    width: 80%;
+height: 1px;
+border: 1px gold solid;
+justify-content: space-evenly;
+    filter: drop-shadow(0 5px 5px red);
+   
+}
+
+.whole_mobile_menu .mobile_menu_container_show .body{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: black;
+    border-radius: 4px;
+    opacity: 0.9;
+height: auto;
+padding-bottom:20px ;
+padding-top: 40px;
+}
+
+.whole_mobile_menu .mobile_menu_container_show .body .item{
+display: flex;
+justify-content: space-evenly;
+width: 100%;
+height: 30px;
+font-size: 20px;
+background-color: transparent;
+letter-spacing: 1px;
+filter: drop-shadow(0 5px 5px whitesmoke);
+color: gold;
+cursor: pointer;
+margin-left: 10px;
+margin-top: 20px;
+
+}
+
+.whole_mobile_menu .mobile_menu_container_hide{
+display: none;
+
+}
+@media screen and (max-width:600px) {
+
+    .whole_mobile_menu .mobile_menu_container_show{display: flex;} 
+
+
+    .whole_mobile_menu {display: flex;} 
+}
+
+.whole_mobile_menu .mobile_menu_container .body_hide{
+    /* width: 100%; */
+    display: none;
+    /* flex-direction: column;
+    justify-content: space-evenly;
+    opacity: 0.7; */
+
+}
