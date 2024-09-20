@@ -11,6 +11,7 @@ function Carousal() {
     <div className='whole_corousal'>
       <div className='main_img'>
      {imgg&& <img src={imgg}/>} 
+     {!imgg&& <img src={four}/>} 
       </div>
       
      <div className='mult_imgs'>

@@ -146,11 +146,12 @@ margin-left: 40%;
     .whole_mid_section{
 /* align-items: center; */
 justify-content: center;
+width: 100%;
     }
     .cont{
         display: flex;
         flex-direction: column;
-    width: 600px;
+    width: 100%;
     }
 
     .whole_mid_section .blueradius{

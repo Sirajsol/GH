@@ -10,7 +10,7 @@
 
     .single_whole{
         flex-direction: column;
-        width: 500px;
+        width: 100%;
         align-items: center;
         margin-right: 70px;
     }
