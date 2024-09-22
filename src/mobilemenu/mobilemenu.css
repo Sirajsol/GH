@@ -12,7 +12,7 @@
    height: 400px;
    z-index: 10;
    /* margin: 0; */
-   right: -40px;
+   right: 10px;
 }
 .whole_mobile_menu .mobile_menu_container{
  display: none;

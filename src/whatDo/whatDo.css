@@ -1,16 +1,17 @@
 .what-whole_cont{
 display: flex;
 flex-direction: column;
+padding-left: 20px;
 
 }
 .what-whole_cont .title{
     display: flex;
     font-family: Poppins;
-font-size: 72px;
+font-size: 52px;
 font-weight: 300;
 line-height: 82px;
 text-align: left;
-
+margin-left: 20px;
 }
 
 .what-whole_cont .desc{
@@ -59,4 +60,17 @@ justify-content: center;
         
     }
     
+
+    .what-whole_cont .title{
+    
+      
+    font-size: 30px;
+    
+    }
+    .what-whole_cont .desc{
+      
+    font-size: 18px;
+   
+    
+    }
 }
