@@ -48,13 +48,16 @@ background: transparent;
     /* background-color: blue; */
     /* border-radius: 20px; */
     /* height: 200px; */
-    border: 2px solid black;
+    /* border: 2px solid black; */
     cursor: pointer;
     margin-top: 100px;
     /* margin-bottom: 100px; */
 }
 
-
+.whole_corousal .mult_imgs img:active{
+    border: 3px solid gold ;
+   
+}
 
 .whole_corousal .connections_whole{
     margin-top: 1px;
