@@ -12,8 +12,9 @@ width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-   margin-top: 80px;
+   margin-top: 110px;
     width: 50%;
+    height: 300px;
     /* border: 2px solid yellow; */
 }
 .whole_corousal .main_img img{
@@ -23,7 +24,8 @@ width: 50%;
   align-items: center;
   /* border: 1px solid blue; */
   /* margin-left: 150px; */
-    width: 60%;
+    width: 100%;
+    height: 100%;
     /* box-shadow: 0px 16px 17px 0px #00000057; */
 filter: drop-shadow(0px 16px 17px #00000057);
 background: transparent;
@@ -46,11 +48,13 @@ background: transparent;
     /* background-color: blue; */
     /* border-radius: 20px; */
     /* height: 200px; */
-    /* border: 2px solid black; */
+    border: 2px solid black;
     cursor: pointer;
     margin-top: 100px;
     /* margin-bottom: 100px; */
 }
+
+
 
 .whole_corousal .connections_whole{
     margin-top: 1px;
@@ -111,7 +115,7 @@ width: 100%;
 
     .whole_corousal .mult_imgs{
         display:  flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         width: 50%;
      
     }
@@ -156,5 +160,9 @@ width: 100%;
     line-height: 20px;
     text-align: left;
     
+    }
+    .whole_corousal .main_img{
+height: 150px;
+
     }
 }

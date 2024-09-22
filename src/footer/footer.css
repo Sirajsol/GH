@@ -1,12 +1,18 @@
 .footer_cont{
+    position: absolute;
+    left:0px;
+    top: 100%;
 margin-top: 50px;
     display: flex;
-    width: 1500px;
+    width: 100%;
     /* border: 5px springgreen solid; */
     background-color: red;
     /* height: 80px; */
     background-color: black;
     flex-direction: column;
+    padding-left: 50px;
+    
+    margin-right: 0px;
 }
 
 .footer_cont .upper_panel{
