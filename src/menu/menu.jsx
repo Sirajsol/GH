@@ -1,6 +1,7 @@
 import React from 'react'
 import './menu.css'
 import per from '../per.png'
+import firebee from '../firebeee.png'
 function Menu() {
   return (
     <div className='men'>
@@ -18,7 +19,7 @@ function Menu() {
 </defs>
 </svg>
 
-firebee
+firebee <img src={firebee}/>
       </div>
        <div className='menuit'>How It Works</div>
        <div className='menuit'>Signals</div>

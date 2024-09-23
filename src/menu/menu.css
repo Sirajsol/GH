@@ -30,8 +30,17 @@
 .menuit{
     /* margin: 10px; */
     display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
     cursor: pointer;
     margin-left: 10px;
+}
+.menuit img{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
 }
 .rifgtmen .per{
     display: flex;
