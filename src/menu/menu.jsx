@@ -19,7 +19,8 @@ function Menu() {
 </defs>
 </svg>
 
-firebee <img src={firebee}/>
+firebee 
+{/* <img src={firebee}/> */}
       </div>
        <div className='menuit'>How It Works</div>
        <div className='menuit'>Signals</div>
